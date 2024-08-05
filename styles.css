@@ -1,0 +1,60 @@
+*{
+    font-family: "Fredoka", sans-serif;
+}
+
+body{
+    background-image: url(./img/WhatsApp\ Image\ 2024-07-28\ at\ 11.55.28\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myButton{
+    background: none;
+    border: none;
+    background: #fcd0eb; 
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.myButton:hover{
+background-color: #e938a5;
+color: beige;
+}
+
+.myTittle{
+    font-size: 5rem;
+    color: black;
+    margin-bottom: 50px;
+    font-family: "Fredoka", sans-serif;
+}
+
+p{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.myTittleCard{
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Fredoka", sans-serif;
+}
+
+@media(max-width:876px){
+    .myTittle{
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+    }
+}
+
+.contentLand{
+     /* From https://css.glass */
+     background: rgba(255, 255, 255, 0.31);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(6.3px);
+     -webkit-backdrop-filter: blur(6.3px);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     padding: 20px;
+}
